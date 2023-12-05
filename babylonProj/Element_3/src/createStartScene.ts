@@ -1,4 +1,4 @@
-import "@babylonjs/core/Debug/debugLayer";
+//import "@babylonjs/core/Debug/debugLayer";
 import "@babylonjs/inspector";
 import {
     Scene,
@@ -256,7 +256,7 @@ import {
     }
   
     let that: SceneData = { scene: new Scene(engine) };
-    that.scene.debugLayer.show();
+    //that.scene.debugLayer.show();
     //initialise physics
     that.scene.enablePhysics(new Vector3(0, -9.8, 0), havokPlugin);
     //----------------------------------------------------------

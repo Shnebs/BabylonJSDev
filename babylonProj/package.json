@@ -2,7 +2,17 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "Element_1build": "tsc && vite build Element_1",
+    "Element_1preview": "vite preview Element_1",
+    "Element_2build": "tsc && vite build Element_2",
+    "Element_2preview": "vite preview Element_2",
+    "Element_3build": "tsc && vite build Element_3",
+    "Element_3preview": "vite preview Element_3",
+    "Element_4build": "tsc && vite build Element_4",
+    "Element_4preview": "vite preview Element_4",
+    "Element_5build": "tsc && vite build Element_5",
+    "Element_5preview": "vite preview Element_5"
   },
   "devDependencies": {
     "typescript": "^5.0.2",

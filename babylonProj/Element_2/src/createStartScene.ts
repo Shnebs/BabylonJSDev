@@ -1,6 +1,6 @@
 //-----------------------------------------------------
 //TOP OF CODE - IMPORTING BABYLONJS
-import "@babylonjs/core/Debug/debugLayer";
+//import "@babylonjs/core/Debug/debugLayer";
 import "@babylonjs/inspector";
 import {
     Scene,
@@ -230,7 +230,7 @@ import {
     }
   
     let that: SceneData = { scene: new Scene(engine) };
-    that.scene.debugLayer.show();
+    //that.scene.debugLayer.show();
 
     //any further code goes here
     that.terrain = createTerrain(that.scene);

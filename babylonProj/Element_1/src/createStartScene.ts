@@ -1,4 +1,4 @@
-import "@babylonjs/core/Debug/debugLayer";
+//import "@babylonjs/core/Debug/debugLayer";
 import "@babylonjs/inspector";
 import {
     Scene,
@@ -124,7 +124,7 @@ import {
     }
   
     let that: SceneData = { scene: new Scene(engine) };
-    that.scene.debugLayer.show();
+    //that.scene.debugLayer.show();
     //Scene Lighting
     that.hemisphericLight = createHemiLight(that.scene);  
     that.faceBox = createFacedBox(that.scene, 0, 2, 0);

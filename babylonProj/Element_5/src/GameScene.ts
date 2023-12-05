@@ -1,8 +1,8 @@
 //-----------------------------------------------------
 //TOP OF CODE - IMPORTING BABYLONJS
 import setSceneIndex from "./index";
-import "@babylonjs/core/Debug/debugLayer";
-import "@babylonjs/inspector";
+//import "@babylonjs/core/Debug/debugLayer";
+//import "@babylonjs/inspector";
 import {
     Scene,
     ArcRotateCamera,
@@ -288,7 +288,7 @@ function Goalpoats(scene: Scene) {
     }
   
     let that: SceneData = { scene: new Scene(engine) };
-    that.scene.debugLayer.show();
+    //that.scene.debugLayer.show();
     //initialise physics
     that.scene.enablePhysics(new Vector3(0, -9.8, 0), havokPlugin);
     //----------------------------------------------------------
